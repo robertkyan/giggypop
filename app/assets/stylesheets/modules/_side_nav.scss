@@ -1,0 +1,23 @@
+.side-nav { display: flex; flex-direction: column; position: fixed; left: 0; top: 7rem; bottom: 0; width: 20rem; padding: 1.5rem 0 0; background: $black; color: $dark-grey; overflow: auto; }
+
+.search-form { margin: 0 0 1rem; padding: 0 1rem 1.5rem; border-bottom: 1px solid #333; }
+.search-form>fieldset { max-width: none; border: 0; position: relative; }
+.search-form>fieldset>div { float: none; width: auto; padding: 0; border: 0; background: none; overflow: hidden; }
+.search-form label { color: $grey; margin: .9rem 0 0 1.5rem; }
+.search-form input[type=search] { margin: 0; padding: .5rem 3.5rem .5rem 1.5rem; border: 0; border-radius: 1.8rem; background: #333; color: $white; box-shadow: none; -webkit-appearance: none; }
+.search-form button[type=submit] { position: absolute; top: 0.5rem; right: 1.5rem; border: 0; color: $white; }
+
+.side-nav h2, .side-nav .article>h2:not(.sector-item-heading) { padding: 0 1.2rem .3rem; margin: 0 0 .8rem; border-bottom: 1px solid #333; font-size: 1rem; font-family: $font-family-sans-serif; text-transform: uppercase; color: $grey; }
+.side-menu { margin: 0 0 1.8rem; padding: 0; list-style: none; font-size: 1.3rem; line-height: 1.231; }
+.side-menu a { text-decoration: none; background: transparent; color: $white; padding: .4rem 1rem; display: block; }
+.side-menu .lowlight-link { color: $dark-grey; }
+.side-menu .fa, .side-menu img { width: 2.6rem; margin-right: .6rem; font-size: 1.8rem; vertical-align: -.1rem; text-align: center; transition: none; color: $grey; }
+.side-menu a:focus, .side-menu a:hover { background: $yellow; color: $darkest-grey; }
+.side-menu a:focus>.fa, .side-menu a:hover>.fa { color: inherit; }
+
+.side-nav .article { border: 0; padding: 0; }
+.side-nav>.article-tags { border-color: $darkest-grey; padding: 1.5rem; }
+.side-nav>.article-tags>h2 { color: $white; font-size: 1.2rem; font-family: $font-family-sans-serif; margin: 0 0 1rem; }
+.side-nav .tags { margin: 0 1rem; }
+.side-nav .tags>li { font-size: 1rem; }
+.side-nav .article-tags>.tags a { padding: .3rem .8rem; background: #333; }

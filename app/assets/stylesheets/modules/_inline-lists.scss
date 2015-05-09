@@ -1,0 +1,4 @@
+.tabs { background: #fff; margin: 0 0 2rem; padding: 0; border-bottom: 1px solid $light-grey; font-size: 1.4rem; }
+.tabs>li { margin-left: 0; }
+.tabs a { padding: 2rem 3rem 1.5rem; text-decoration: none; display: block; border-bottom: 5px solid $white; }
+.tabs a.active, main .inline-list a:focus, main .inline-list a:hover { border-bottom-color: $orange; }

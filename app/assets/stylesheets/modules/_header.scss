@@ -1,0 +1,19 @@
+.main-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: table; width: 100%; background: $white; font-size: 1.2rem; border-bottom: 1px solid $light-grey; }
+.main-header>div { display: table-row; }
+
+.logo { display: table-cell; min-width: 32rem; vertical-align: middle; padding-left: 1.5rem; white-space: nowrap; }
+.logo>a { display: block; text-decoration: none; }
+.logo img { float: left; margin-right: 1rem; }
+.logo b { display: block; font-size: 2.2rem; padding-top: 1rem; }
+
+.header-content { display: table-cell; width: 100%; height: 7rem; vertical-align: middle; text-align: center; }
+
+.tab-bar { position: fixed; z-index: 100; top: 0; width: 100%; border-bottom: 1px solid $light-grey;}
+.tab-bar .logo { display: block; padding-top: 0.8rem; }
+.nav-off-canvas { padding-top: 2rem;}
+.nav-off-canvas .article-tags { padding: 1.5rem 1rem; border-top: 1px solid #333; }
+.nav-off-canvas .article-tags li { display: block;}
+.nav-off-canvas .article-tags>.tags a { padding: .3rem .8rem; background: #333; display: inline-block; }
+.nav-off-canvas .article > h2:not(.sector-item-heading) { font-size: 1rem; font-family: Graphik, Helvetica Neue, Helvetica, Arial; text-transform: uppercase; color: #999999; margin-bottom: 1rem; }
+
+.offcanvas-open { overflow: hidden; }

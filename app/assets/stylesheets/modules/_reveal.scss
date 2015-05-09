@@ -1,0 +1,11 @@
+.reveal-modal-bg { position: fixed; }
+.reveal-modal { position: fixed; overflow: hidden; font-size: 1.4rem; line-height: 1.288; text-align: center; padding: 9rem 0 0; background: image-url('logo_small.svg') no-repeat 50% 1rem / 8rem auto $white; }
+.reveal-modal::before { content: ""; position: absolute; top: 6.7rem; left: 0; right: 0; height: 1px; background: $light-grey; }
+.reveal-modal form { padding: 0; }
+.reveal-modal fieldset { border: 0; padding: 0 2.5rem 2.5rem; text-align: center; }
+.reveal-modal fieldset>div { padding: 0; border: 0; width: auto; }
+.reveal-modal fieldset .avatar-block { margin: 0 0 1rem; width: 48%; }
+.reveal-modal .actions { text-align: center; padding: 2.5rem; margin: 0; }
+
+.alternative { background: $lightest-grey; color: $grey; padding: 2rem; margin: 0; }
+.alternative a { color: inherit; }

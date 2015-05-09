@@ -1,0 +1,38 @@
+$black: #1a1a1a;
+$darkest-grey: #212121;
+$dark-grey: #666;
+$grey: #999;
+$light-grey: #ddd;
+$lightest-grey: #f2f2f2;
+$white: #fff;
+
+$light-green: #00a553;
+$green: #339933;
+$dark-green: #006600;
+$red: #cc3333;
+$dark-red: #c73f51;
+$light-red: #b83837;
+$light-purple: #85519a;
+$purple: #663366;
+$yellow: #ffb80c;
+$lemon: #ffd878;
+$blue: #72bbef;
+$light-blue: #67a4d3;
+$teal: #1f9f99;
+$pink: #faa9ba;
+$orange: #ec9742;
+$dark-orange: #c47339;
+$tarmac-grey: #858289;
+$fairway-green: #82c70c;
+
+// sector colours
+$colours: (
+	football: $green,
+	horse-racing: $dark-green,
+	politics: $purple,
+  tennis: $light-blue,
+  cricket: $light-red,
+  rugby-union: $dark-orange,
+  motor-sport: $tarmac-grey,
+  golf: $fairway-green
+);

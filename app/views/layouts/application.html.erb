@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="<%= page_class %>" id="<%= page_id %>">
 <head>
-  <title>GiggypopCom</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <meta charset="utf-8"/>
+  <title>GiggyPOP</title>
+  <meta http-equiv="X-UA-Compatible" content="chrome=IE8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= favicon_link_tag 'favicon.ico' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <section class="main-section">
+      <header class="main-header hide-for-small-down"><div>
+        <div class="logo"></div>
+        <div class="header-content"></div>
+      </div></header>
+      <div class="content">
+        <div class="top-nav">
+          <div class="barstrip"><div class="logo"><%= link_to image_tag('logo.svg', alt: 'GiggyPOP'), root_path %></div></div>
+          <nav class="row">
+            <a class="button columns medium-2 small-centered" href="/gigs">Gigs</a>
+            <a class="button columns medium-2 small-centered" href="#">Your gigs</a>
+          </nav>
+        </div>
+        <main>
+          <%= yield %>
+        </main>
+      </div><!-- / .content -->
+    </section>
+  </div>
 </body>
 </html>
